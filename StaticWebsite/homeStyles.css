@@ -1,0 +1,219 @@
+/* Sword Sworn Homepage Styles
+ Name: Kinda Wassouf
+ Date: 12/2/2020 */
+
+/* Color Palette:
+darkPurpleGray = #100d13
+green = #8ad382
+hotPink = #ec4bb9
+darkPurple = #371b51
+purple = #8c4fa2
+gold = #c1a24a
+ */
+
+html {
+    background-image: url(background.png);
+}
+
+body {
+    background-color: #100d13;
+    width: 75%;
+    margin: auto;
+    border-right: solid white 4px;
+    border-left: solid white 4px;
+}
+
+header img {
+    width: 100%;
+    margin: auto;
+}
+
+/* Navigation section */
+section#secNav {
+    height: 50px;
+    padding: 20px;
+    margin: auto;
+    background-color: #8c4fa2;
+}
+
+nav {
+    margin-left: 30%;
+}
+
+ul {
+    margin: auto;
+    align-content: center;
+}
+
+li {
+    display: block;
+    float: left;
+    padding: 10px;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+}
+
+li:hover {
+    font-size: 2em;
+    background-color: #5b276d;
+    border-radius: 0 10px;
+    transition: background-color 0.5s, font-size 0.5s;
+}
+
+a {
+    color: white;
+}
+
+/* Headers and paragraphs */
+h1, h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 0;
+    color: white;
+    clear: both;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    color: darkred;
+    clear: both;
+}
+
+section.audio {
+    width: 60%;
+    margin: auto;
+}
+
+audio {
+    width: 100%;
+}
+
+/* Paragraphs */
+p {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    width: 70%;
+    margin: auto;
+}
+
+p.mainChr {
+    margin: 30px auto;
+    font-size: 40px;
+}
+
+p.desc {
+    text-align: center;
+    font-size: 20px;
+}
+
+img#homeImg {
+    display: block;
+    float: right;
+    width: 30%;
+    margin-right: 10%;
+}
+
+/* Pre-order Button */
+section#sec2 {
+    margin: 20px auto;
+    align-content: center;
+    width: 20%;
+    border-radius: 0 20px;
+}
+
+section#sec2:hover {
+    width: 30%;
+    transition: width 0.5s;
+}
+
+button {
+    float: left;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #8ad382;
+    width: 100%;
+    margin: 50px auto;
+    border-radius: 0 30px;
+    clear: both;
+}
+
+button:hover {
+    font-size: 25px;
+    background-color: #bffab6;
+    transition: background-color 0.5s, font-size 0.5s;
+}
+
+footer {
+    height: 50px;
+    padding: 20px;
+    margin: auto;
+    background-color: #8c4fa2;
+    clear: both;
+}
+
+/* PreOrder Page Styles */
+section.image {
+    width: 40%;
+    margin: auto;
+}
+
+section.image img {
+    width: 100%;
+}
+
+/* Merch Store Page */
+div {
+    display: block;
+    float: left;
+    width: 30%;
+    margin: 10px 20px;
+    background-color: #816f30;
+    border-radius: 0 30px;
+    border: solid white;
+}
+
+section.storeButton {
+    width: 50%;
+    margin: auto;
+}
+
+/* -------------------- */
+/*   Cellphone Styles   */
+/* -------------------- */
+@media (max-device-width: 700px) {
+    body {
+        background-color: #100d13;
+        width: 100%;
+        margin: 0;
+        border-right: solid white 4px;
+        border-left: solid white 4px;
+    }
+
+    nav {
+        margin-left: 18%;
+    }
+}
+
+/* -------------------- */
+/*    Tablet Styles     */
+/* -------------------- */
+@media (min-device-width: 700px) and (max-device-width: 1280px) {
+    nav {
+        margin-left: 10%;
+    }
+
+    section#sec2 {
+        margin: 20px auto;
+        align-content: center;
+        width: 30%;
+        border-radius: 0 20px;
+    }
+
+    section#sec2:hover {
+        width: 40%;
+        transition: width 0.5s;
+    }
+}
